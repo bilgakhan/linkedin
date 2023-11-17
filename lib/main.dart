@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:linkedin/ui/home_page.dart';
+
+import 'package:linkedin/ui/screens/splash_screen.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());
@@ -11,6 +12,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) => MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: HomePage(),
+        home: SplashScreen(),
       );
 }
